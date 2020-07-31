@@ -1,3 +1,4 @@
+
 # JavaScript Advanced Functions: Basic Functions Review
 
 ## Learning Goals
@@ -178,7 +179,7 @@ As a thought experiment, what happens here:
 
 We recognize the first `()` as being those that we might use from arithmetic to
 make something happen first in terms of order-of-operations. In the example
-below, although we would normally expect `*` to happen before `-`, instead it 
+below, although we would normally expect `*` to happen before `-`, instead it
 happens after since the `()` evaluation is performed earlier:
 
 ```js
@@ -195,7 +196,7 @@ The second `()` are the `()` of function invocation like `sayHello()` having
 name `sayHello`.
 
 Put these two components together and  we're "invoking" the function
-immediately after defining it. Thus the name Instantly-Invoked Function 
+immediately after defining it. Thus the name Instantly-Invoked Function
 Expression (IIFE for short).
 
 ```js
@@ -235,9 +236,9 @@ later in this lesson.
 
 JavaScript exhibits "Function-level" scope. This means that if a function is
 defined _inside another_ function, the inner function has access to all the
-parameters (variables passed in) of, as well as any variables defined in, the outer 
-function. This moves backward recursively too. Each of the enclosing parents' 
-scopes are made available via the _scope chain_. Let's see things working before 
+parameters (variables passed in) of, as well as any variables defined in, the outer
+function. This moves backward recursively too. Each of the enclosing parents'
+scopes are made available via the _scope chain_. Let's see things working before
 we define _scope chain_.
 
 > **ASIDE**: This is where people **really** start to get awed by JavaScript.
@@ -408,7 +409,7 @@ statement. That's awesome wormhole, space-time, magic!
   * Call example: `let encouragingPromptFunction = wrapAdjective("!!!")`
 * Thus a total call should be:
       `wrapAdjective("%")("a dedicated programmer") //=> "You are %a dedicated programmer%!"`
-      
+
 Use the `learn` program to verify you've gotten a working
 implementation. Come back here once you've gotten just this set of tests passing.
 
